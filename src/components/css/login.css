@@ -1,0 +1,425 @@
+.MainClass {
+  width: 200vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logindiv {
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200vh;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.logindiv form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logindiv form h2 {
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.logindiv form input {
+  width: 400px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.logindiv form .loginbtn {
+  padding: 7px 10px;
+  background-color: #a09b9b;
+  border: 0px;
+  border-radius: 3px;
+  font-size: 15px;
+  color: white;
+}
+
+.logindiv .createbtn {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logindiv .createbtn p {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.logindiv .createbtn a {
+  font-size: 10px;
+  font-weight: 600;
+  color: #87CEEB;
+  border: 2px solid #87CEEB;
+  padding: 5px;
+}
+
+.logindiv .HomeBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  padding: 5px 0px;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+
+.logindiv .HomeBtn img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.logindiv input[type="email"]::-webkit-input-placeholder {
+  text-align: left;
+}
+
+.logindiv input[type="email"]:-ms-input-placeholder {
+  text-align: left;
+}
+
+.logindiv input[type="email"]::-ms-input-placeholder {
+  text-align: left;
+}
+
+.logindiv input[type="email"]::placeholder {
+  text-align: left;
+}
+
+.Registerclass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1500px;
+  border: 2px solid black;
+  display: flex;
+  width: 200vh;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.Registerclass form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Registerclass form h2 {
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.Registerclass form input {
+  width: 400px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.Registerclass form .loginbtn {
+  padding: 7px 10px;
+  background-color: #a09b9b;
+  border: 0px;
+  border-radius: 3px;
+  font-size: 15px;
+  color: white;
+}
+
+.Registerclass .createbtn {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Registerclass .createbtn p {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.Registerclass .createbtn a {
+  font-size: 10px;
+  font-weight: 600;
+  color: #87CEEB;
+  border: 2px solid #87CEEB;
+  padding: 5px;
+}
+
+.Registerclass .HomeBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  padding: 5px 0px;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+
+.Registerclass .HomeBtn img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.Registerclass input[type="email"]::-webkit-input-placeholder {
+  text-align: left;
+}
+
+.Registerclass input[type="email"]:-ms-input-placeholder {
+  text-align: left;
+}
+
+.Registerclass input[type="email"]::-ms-input-placeholder {
+  text-align: left;
+}
+
+.Registerclass input[type="email"]::placeholder {
+  text-align: left;
+}
+
+.Registerclass form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Registerclass form .usernamecontainer, .Registerclass form .passwordContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Registerclass form .usernamecontainer input, .Registerclass form .passwordContainer input {
+  width: 190px;
+  margin: 10px 7px;
+}
+
+.Registerclass form .userEmailid {
+  height: 30px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.Registerclass form .instead {
+  margin-left: 2px;
+}
+
+.Registerclass .UserDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+.Registerclass .UserDetails .gender {
+  width: 120px;
+  border: 1px solid gray;
+}
+
+.Registerclass .UserDetails .gender label {
+  margin: 0px 10px;
+}
+
+.Registerclass .UserDetails .gender div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.Registerclass .UserDetails .gender div input {
+  margin-left: 8px;
+  padding: 0px;
+  font-size: 2px;
+  width: 20px;
+  height: 25px;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+
+.Registerclass .UserDetails .gender div p {
+  width: 100px;
+  height: 25px;
+  margin-left: 3px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+
+.Registerclass .UserDetails .dobinput {
+  margin: 0px 10px;
+  border: 1px solid gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 180px;
+  max-height: 60px;
+}
+
+.Registerclass .UserDetails .dobinput input, .Registerclass .UserDetails .dobinput label {
+  width: 150px;
+  margin-left: 10px;
+}
+
+.Registerclass .UserDetails .dobinput input {
+  margin-top: 5px;
+}
+
+.Registerclass .UserDetails .countrycontainer {
+  border: 1px solid gray;
+  padding: 0px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-height: 50px;
+}
+
+.Registerclass .UserDetails .countrycontainer #country {
+  margin-top: 5px;
+  background-color: whitesmoke;
+  border: 0px;
+}
+
+.Home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  width: 200vh;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: black;
+}
+
+.Home p, .Home button {
+  margin: 10px;
+}
+
+.Home button {
+  padding: 5px;
+}
+
+.Home .logoutbtn {
+  border: 1px solid red;
+  background-color: white;
+  padding: 10px 7px;
+  border-radius: 4px;
+  color: red;
+}
+
+.Home .checkwheather {
+  width: 300px;
+  padding: 10px;
+  color: white;
+  background-color: aqua;
+  border: 0px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=login.css.map */
